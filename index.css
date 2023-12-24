@@ -1,12 +1,78 @@
+body {
+  background-image: url("https://s2.loli.net/2023/12/24/7aP5gF3d8Lcf92m.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.div {
+  background-color: #82828298;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+}
+.logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 30%;
+  overflow: hidden;
+}
+.title {
+  color: whitesmoke;
+  font-size: 40px;
+}
 .body {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 20px;
-  background-color: rgba(0, 255, 255, 0.418);
+  padding: 30px;
 }
-.head {
+.head1 {
   color: rgb(36, 115, 126);
 }
+.head2 {
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+}
 .pig {
+  color: aliceblue;
+  font-size: 25px;
+}
+.abig {
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+}
+.button {
+  background-color: rgba(63, 149, 219, 0.671);
+  font-size: 40px;
+  box-sizing: border-box;
+  padding: 5px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #73b4d9;
+}
+.button2 {
+  background-color: rgb(63, 149, 219);
+  border-radius: 8px;
+  padding: 5px;
+  width: 400px;
+  border: none;
+}
+.button2:hover {
+  background-color: #73b4d9;
+}
+.divend {
+  background-color: #828282c5;
+  text-align: center;
+  padding: 5px;
+  border-radius: 4px;
+}
+.footer {
+  padding: 10px;
+  color: rgb(237, 231, 231);
+  font-style: italic;
+  font-size: 15px;
 }
