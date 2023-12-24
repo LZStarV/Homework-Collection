@@ -1,1 +1,1 @@
-# Homework-Collection
+# 这是LZStarV给计科1班做的一个用来交作业的网站。本人初学前端，有做得不好还请多多谅解。
