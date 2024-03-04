@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://s2.loli.net/2023/12/24/7aP5gF3d8Lcf92m.png");
+  background-image: url("./Picture/BG.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -33,20 +33,20 @@ body {
   color: rgb(255, 255, 255);
   font-size: 60px;
 }
-.pig {
+p {
   color: aliceblue;
   font-size: 25px;
 }
 .abig {
   text-decoration: none;
   color: white;
-  font-size: 40px;
+  font-size: 30px;
 }
 .button {
   background-color: rgba(63, 149, 219, 0.671);
-  font-size: 40px;
+  font-size: 10px;
   box-sizing: border-box;
-  padding: 5px;
+  padding: 15px;
   border-radius: 20px;
   text-align: center;
 }
