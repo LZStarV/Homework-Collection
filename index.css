@@ -42,12 +42,15 @@ p {
   color: white;
   font-size: 30px;
 }
+.img {
+  border-radius: 20px;
+}
 .button {
   background-color: rgba(63, 149, 219, 0.671);
   font-size: 10px;
   box-sizing: border-box;
-  padding: 15px;
-  border-radius: 20px;
+  padding: 10px;
+  border-radius: 30px;
   text-align: center;
 }
 
