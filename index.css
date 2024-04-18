@@ -79,3 +79,7 @@ p {
   font-style: italic;
   font-size: 15px;
 }
+#group {
+  display: flex;
+  justify-content: center;
+}
