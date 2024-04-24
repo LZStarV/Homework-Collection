@@ -7,13 +7,15 @@
   </head>
 
   <body>
-    <link href="./index.css" rel="stylesheet" />
+    <link href="./css/index.css" rel="stylesheet" />
+    <!--标题-->
     <div class="div">
       <br />
       <img src="./Picture/logo.jpg" class="logo" />
       <h1 class="title"><b>计科1班收作业网站</b></h1>
     </div>
     <hr />
+    <!--引文-->
     <div
       class="body"
       style="background-color: rgba(90, 99, 99, 0.377); border-radius: 15px"
@@ -31,69 +33,118 @@
       </p>
       <p style="text-indent: 2em">好好学习，记得做作业！</p>
     </div>
+    <!--表格内容-->
     <div class="body">
-      <div id="group">
-        <!--作业1-->
-        <a href="./作业1.html" title="nnd,赶紧点啊" class="abig"
-          ><button class="button"><p>程序理论课作业</p></button></a
-        >
-        <br />
-        <p>&nbsp&nbsp&nbsp&nbsp</p>
-        <!--作业2-->
-        <a href="./作业2.html" title="nnd,赶紧点啊" class="abig">
-          <button class="button"><p>程序实验课作业1</p></button></a
-        >
-        <br />
-        <p>&nbsp&nbsp&nbsp&nbsp</p>
-        <!-- 作业3-->
-        <a href="./作业3.html" title="nnd,赶紧点啊" class="abig">
-          <button class="button"><p>程序实验课作业2</p></button></a
-        >
-        <br />
-      </div>
-      <br />
-      <div id="group">
-        <!-- 作业4-->
-        <a href="./作业4.html" title="nnd,赶紧点啊" class="abig">
-          <button class="button"><p>学业规划课作业1</p></button></a
-        >
-        <br />
-        <p>&nbsp&nbsp&nbsp&nbsp</p>
-        <!-- 作业7-->
-        <a href="./作业7.html" title="nnd,赶紧点啊" class="abig">
-          <button class="button"><p>学业规划课作业2</p></button></a
-        >
-        <br />
-        <p>&nbsp&nbsp&nbsp&nbsp</p>
-        <!-- 作业5-->
-        <a href="./作业5.html" title="nnd,赶紧点啊" class="abig">
-          <button class="button"><p>离散数学作业</p></button></a
-        >
-        <br />
-      </div>
-      <br />
-      <div id="group">
-        <!-- 作业6-->
-        <a href="./作业6.html" title="nnd,赶紧点啊" class="abig">
-          <button class="button"><p>数字逻辑电路作业1</p></button></a
-        >
-        <br />
-        <p>&nbsp&nbsp&nbsp&nbsp</p>
-        <!-- 作业8-->
-        <a href="./作业8.html" title="nnd,赶紧点啊" class="abig">
-          <button class="button"><p>数字逻辑电路作业2</p></button></a
-        >
-        <br />
-        <p>&nbsp&nbsp&nbsp&nbsp</p>
-        <!-- 作业9-->
-        <a href="./作业9.html" title="nnd,赶紧点啊" class="abig">
-          <button class="button"><p>数电实验作业</p></button></a
-        >
-        <br />
-      </div>
+      <table class="table">
+        <!--表格头部-->
+        <thead>
+          <tr>
+            <th>作业名称</th>
+            <th>开始时间</th>
+            <th>DDL</th>
+          </tr>
+        </thead>
+
+        <!--表格主体-->
+
+        <tbody>
+          <tr>
+            <td>
+              <a
+                href="./Homework/homework2.html"
+                title="nnd,赶紧点啊"
+                class="abig2"
+                >程序实验课作业</a
+              >
+            </td>
+            <td>20240417</td>
+            <td id="ddl">20240507 23:00</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a
+                href="./Homework/homework4.html"
+                title="nnd,赶紧点啊"
+                class="abig2"
+                >学业规划课作业1(人物访谈)</a
+              >
+            </td>
+            <td>20240417</td>
+            <td id="ddl">20240513 00:00</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a
+                href="./Homework/homework7.html"
+                title="nnd,赶紧点啊"
+                class="abig2"
+                >学业规划课作业2(规划书)</a
+              >
+            </td>
+            <td>20240417</td>
+            <td id="ddl">20240603 00:00</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a
+                href="./Homework/homework5.html"
+                title="nnd,赶紧点啊"
+                class="abig2"
+                >离散数学作业</a
+              >
+            </td>
+            <td>20240418</td>
+            <td id="ddl">20240426 23:59</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a
+                href="./Homework/homework6.html"
+                title="nnd,赶紧点啊"
+                class="abig2"
+                >数字逻辑电路作业1(重做)</a
+              >
+            </td>
+            <td>20240418</td>
+            <td id="ddl">20240428 19:50</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a
+                href="./Homework/homework8.html"
+                title="nnd,赶紧点啊"
+                class="abig2"
+                >数字逻辑电路作业2(第五章练习)</a
+              >
+            </td>
+            <td>20240418</td>
+            <td id="ddl">20240425 07:01</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a
+                href="./Homework/homework9.html"
+                title="nnd,赶紧点啊"
+                class="abig2"
+                >数电实验作业</a
+              >
+            </td>
+            <td>20240412</td>
+            <td id="ddl">NULL</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
     <div class="divend">
       <footer class="footer">此网站由LZStarV设计</footer>
     </div>
+    <!--js部分-->
+    <script type="text/javascript" src="./js/index.js"></script>
   </body>
 </html>
