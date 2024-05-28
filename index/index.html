@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>计科1班收作业网站</title>
+    <link
+      href="http://cdn.repository.webfont.com/webfonts/nomal/154558/47591/66559d3fa75bea0ef8eceacf.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+
+  <body>
+    <link href="./index.css" rel="stylesheet" />
+    <div id="page" class="page">
+      <!--标题-->
+      <div class="tab">
+        <div class="div">
+          <img :src="logoURL" class="logo" />
+          <h1 class="title"><b>计科1班收作业网站</b></h1>
+        </div>
+        <hr />
+        <!--引文-->
+        <div class="main">
+          <div v-for="(item, index) in introduce" :key="index">
+            <p>{{ item }}</p>
+          </div>
+        </div>
+      </div>
+      <!-- 卡片内容 -->
+      <div>
+        <div class="top">好好学习，记得做作业！</div>
+        <div class="container">
+          <div v-for="(card, index) in card" key="index" class="card">
+            <div class="content">
+              <h1>0{{ index+1 }}</h1>
+              <h3>{{ card.uname }}（{{ card.uname_add }}）</h3>
+              <p>开始时间：{{ card.start }}</p>
+              <p>结束时间：{{ card.ddl }}</p>
+              <a @click="gotoPage(index)" id="detail">详情</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 花活 -->
+      <div class="square">
+        <ul>
+          <li>C++</li>
+          <li>html</li>
+          <li>Java</li>
+          <li>JS</li>
+          <li>C</li>
+        </ul>
+      </div>
+      <div class="circle">
+        <ul>
+          <li>CSS</li>
+          <li>Python</li>
+          <li>C#</li>
+          <li>Go</li>
+          <li>PHP</li>
+        </ul>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="divend">
+      <footer class="footer">此网站由LZStarV设计</footer>
+    </div>
+    <!--js部分-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.16/dist/vue.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
