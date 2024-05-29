@@ -13,59 +13,86 @@
   </head>
 
   <body>
-    <div id="page" class="page">
-      <!--标题-->
-      <div class="tab">
-        <div class="div">
-          <img :src="logoURL" class="logo" />
-          <h1 class="title"><b>计科1班收作业网站</b></h1>
-        </div>
-        <hr />
-        <!--引文-->
-        <div class="main">
-          <div v-for="(item, index) in introduce" :key="index">
-            <p>{{ item }}</p>
+    <div id="page">
+      <div class="page">
+        <!--标题-->
+        <div class="tab">
+          <div class="div">
+            <img :src="logoURL" class="logo" />
+            <h1 class="title"><b>计科1班收作业网站</b></h1>
           </div>
-        </div>
-      </div>
-      <!-- 卡片内容 -->
-      <div>
-        <div class="top">好好学习，记得做作业！</div>
-        <div class="container">
-          <div v-for="(card, index) in card" key="index" class="card">
-            <div class="content">
-              <h1>0{{ index+1 }}</h1>
-              <h3>{{ card.uname }}（{{ card.uname_add }}）</h3>
-              <p>开始时间：{{ card.start }}</p>
-              <p>结束时间：{{ card.ddl }}</p>
-              <a
-                @click="gotoPage(index)"
-                id="detail"
-                href="Homework/Homework.html"
-                >详情</a
-              >
+          <hr />
+          <!--引文-->
+          <div class="main">
+            <div v-for="(item, index) in introduce" :key="index">
+              <p>{{ item }}</p>
             </div>
           </div>
         </div>
+        <!-- 卡片内容 -->
+        <div>
+          <div class="top">好好学习，记得做作业！</div>
+          <div class="container">
+            <div v-for="(card, index) in card" :key="index" class="card">
+              <div class="content">
+                <h1>0{{ index+1 }}</h1>
+                <h3>{{ card.uname }}（{{ card.uname_add }}）</h3>
+                <p>开始时间：{{ card.start }}</p>
+                <p>结束时间：{{ card.ddl }}</p>
+                <a
+                  @click="gotoPage(index)"
+                  id="detail"
+                  href="Homework/Homework.html"
+                  >详情</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 花活 -->
+        <div class="square">
+          <ul>
+            <li>C++</li>
+            <li>html</li>
+            <li>Java</li>
+            <li>JS</li>
+            <li>C</li>
+          </ul>
+        </div>
+        <div class="circle">
+          <ul>
+            <li>CSS</li>
+            <li>Python</li>
+            <li>C#</li>
+            <li>Go</li>
+            <li>PHP</li>
+          </ul>
+        </div>
       </div>
-      <!-- 花活 -->
-      <div class="square">
-        <ul>
-          <li>C++</li>
-          <li>html</li>
-          <li>Java</li>
-          <li>JS</li>
-          <li>C</li>
-        </ul>
-      </div>
-      <div class="circle">
-        <ul>
-          <li>CSS</li>
-          <li>Python</li>
-          <li>C#</li>
-          <li>Go</li>
-          <li>PHP</li>
-        </ul>
+      <!-- 期末考通知栏 -->
+      <div class="notice">
+        <div>期末考试日程表(以计科一班班级课表为准)</div>
+        <p class="line">&nbsp;</p>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>考试科目</th>
+              <th>教室</th>
+              <th>考试时间</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              v-for="(subject, index) in subject"
+              :key="index"
+              class="subject"
+            >
+              <td>{{ subject.proj }}</td>
+              <td>{{ subject.class }}</td>
+              <td>{{ subject.tm }}</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
     <!-- footer -->
