@@ -29,9 +29,9 @@ var app = new Vue({
         img: "https://img2.imgtp.com/2024/05/29/2FKmButq.png",
         uname: "程序实验课作业2",
         uname_add: "陨石撞飞机",
-        content: "先不着急交，还没问清",
+        content: "提交综合性实验报告和压缩包文件，记得删除.vs文件和Debug文件",
         start: "2024-05-29",
-        ddl: "2024-06-26 23:00",
+        ddl: "2024-06-19 23:00",
         link: "https://send2me.cn/-xYgPD2Q/SyOvx2JIAAm82A",
       },
       {
