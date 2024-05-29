@@ -48,7 +48,6 @@ var app = new Vue({
     gotoPage(idx) {
       // 存储当前点击的card元素到localStorage
       localStorage.setItem("selectedHomework", JSON.stringify(this.card[idx]));
-      location.assign("../Homework/Homework.html");
     },
     sortCardsByDdl() {
       this.card.sort((a, b) => {
