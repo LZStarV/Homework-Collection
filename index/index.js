@@ -35,7 +35,7 @@ var app = new Vue({
         link: "https://send2me.cn/-xYgPD2Q/SyOvx2JIAAm82A",
       },
       {
-        img: "https://img2.imgtp.com/2024/05/29/t4LotBTw.png",
+        img: "https://img2.imgtp.com/2024/05/29/qMLSz1To.png",
         uname: "学业规划课作业",
         uname_add: "规划书",
         content: "基于模板，定制属于自己的职业生涯规划书",
