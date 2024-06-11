@@ -35,6 +35,16 @@ var app = new Vue({
         ddl: "2024-06-19 23:00",
         link: "https://send2me.cn/-xYgPD2Q/SyOvx2JIAAm82A",
       },
+      {
+        img: "https://img.picui.cn/free/2024/06/11/66684813ce629.png",
+        uname: "离散数学",
+        uname_add: "第七章",
+        content:
+          "提交综合性实验压缩包文件，记得删除.vs文件和Debug文件（本次作业分两部分提交！）",
+        start: "2024-06-05",
+        ddl: "2024-06-14 23:41",
+        link: "https://moodle.scnu.edu.cn/mod/assign/view.php?id=604782",
+      },
     ],
     subject: [
       {
