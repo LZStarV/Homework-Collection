@@ -5,36 +5,18 @@ var app = new Vue({
     introduce: [
       "卡片以ddl为索引排序，越在前面越快到ddl！记得及时做作业哦！",
       "下面是计科一班期末考试日程表！",
+      "现在没有作业！",
     ],
     card: [
-      {
-        img: "https://img.picui.cn/free/2024/06/05/6660614324d6b.png",
-        uname: "程序实验课作业",
-        uname_add: "实验报告",
-        content: "提交综合性实验的实验报告（本次作业分两部分提交！）",
-        start: "2024-05-29",
-        ddl: "2024-06-21 23:00",
-        link: "https://send2me.cn/7HZKj87G/Q_aG7n44SFrslQ",
-      },
-      {
-        img: "https://img.picui.cn/free/2024/06/05/6660624d75410.png",
-        uname: "程序实验课作业",
-        uname_add: "压缩包",
-        content:
-          "提交综合性实验压缩包文件，记得删除.vs文件和Debug文件（本次作业分两部分提交！）",
-        start: "2024-05-29",
-        ddl: "2024-06-21 23:00",
-        link: "https://send2me.cn/-xYgPD2Q/SyOvx2JIAAm82A",
-      },
-      {
-        img: "https://img.picui.cn/free/2024/06/12/6669b83d968c3.png",
-        uname: "离散数学",
-        uname_add: "第八章",
-        content: "习题八：2，4，17，21，26",
-        start: "2024-06-13",
-        ddl: "2024-06-21 23:41",
-        link: "https://moodle.scnu.edu.cn/mod/assign/view.php?id=604784",
-      },
+      // {
+      //   img: "",
+      //   uname: "",
+      //   uname_add: "",
+      //   content: "",
+      //   start: "",
+      //   ddl: "",
+      //   link: "",
+      // },
     ],
     subject: [
       {
