@@ -8,33 +8,15 @@ var app = new Vue({
       "现在没有作业！",
     ],
     card: [
-      {
-        img: "",
-        uname: "语文作业",
-        uname_add: "",
-        content: "",
-        start: "2024.7.15",
-        ddl: "2024.7.21",
-        link: "",
-      },
-      {
-        img: "",
-        uname: "数学作业",
-        uname_add: "",
-        content: "",
-        start: "2024.7.14",
-        ddl: "2024.7.23",
-        link: "",
-      },
-      {
-        img: "",
-        uname: "英语作业",
-        uname_add: "",
-        content: "",
-        start: "2024.7.16",
-        ddl: "2024.7.24",
-        link: "",
-      },
+      // {
+      //   img: "",
+      //   uname: "",
+      //   uname_add: "",
+      //   content: "",
+      //   start: "",
+      //   ddl: "",
+      //   link: "",
+      // },
     ],
     subject: [
       {

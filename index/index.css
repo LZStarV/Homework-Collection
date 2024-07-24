@@ -1,11 +1,5 @@
 body {
-  background: linear-gradient(
-    20deg,
-    rgb(6, 87, 119),
-    rgb(29, 101, 137),
-    rgb(45, 129, 165),
-    rgb(44, 208, 233)
-  );
+  background: linear-gradient(20deg, #065777, #1d6589, #2d81a5, #2cd0e9);
 }
 .page {
   display: flex;
@@ -18,7 +12,6 @@ body {
   width: 120px;
   height: 120px;
   flex-direction: column;
-  align-items: center;
   margin: 20px;
   padding: 10px 30px 50px 30px;
   text-align: center;
@@ -46,7 +39,6 @@ body {
   display: flex;
   width: 120px;
   flex-direction: column;
-  align-items: center;
   margin: 20px;
   padding: 10px 30px 10px 30px;
   background-color: rgba(90, 99, 99, 0.26);
@@ -71,7 +63,6 @@ p {
 .img {
   border-radius: 20px;
 }
-
 .divend {
   background-color: #8f8e8e94;
   text-align: center;
@@ -81,13 +72,13 @@ p {
 }
 .footer {
   padding: 10px;
-  color: rgb(237, 231, 231);
+  color: #ede7e7;
   font-style: italic;
   font-size: 12px;
 }
 .abig2 {
   text-decoration: none;
-  color: rgb(237, 207, 169);
+  color: #edcfa9;
   font-size: 30px;
 }
 .top {
@@ -100,7 +91,7 @@ p {
   font-weight: 700;
   color: #fff;
   letter-spacing: 5px;
-  background-color: rgb(45, 129, 165);
+  background-color: #2d81a5;
   border-radius: 15px;
   /* 阴影 */
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -112,7 +103,6 @@ p {
   backdrop-filter: blur(10px);
   text-align: center;
 }
-
 /* 卡片样式 */
 .container {
   position: relative;
@@ -179,7 +169,7 @@ p {
   background-color: #d4d4d4;
   cursor: pointer;
 }
-.card .content h3 {
+.container .card .content h3 {
   font-size: 28px;
   color: #fff;
   text-align: center;
@@ -189,16 +179,16 @@ p {
   opacity: 1;
   transition: transform 0.5s, opacity 0.5s;
 }
-.container:hover .card:hover .content h3 {
-  /* 鼠标移入，上移+显示 */
-  transform: translateY(45px);
-  opacity: 1;
-}
 .container .card .content *:not(h3) {
   /* 默认下移+隐藏 */
   transform: translateY(50px);
   opacity: 0;
   transition: transform 0.5s, opacity 0.5s;
+}
+.container:hover .card:hover .content h3 {
+  /* 鼠标移入，上移+显示 */
+  transform: translateY(45px);
+  opacity: 1;
 }
 .container:hover .card:hover .content *:not(h3) {
   /* 鼠标移入，上移+显示 */
@@ -275,7 +265,6 @@ ul li {
   /* 设置动画延迟时间 */
   animation-delay: 8s;
 }
-
 /* 定义动画 */
 @keyframes square {
   0% {
@@ -308,9 +297,8 @@ ul li {
   padding: 30px 0px 30px 0px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 80%;
-  background-color: rgb(45, 129, 165);
+  background-color: #2d81a5;
   border-radius: 15px;
   /* 阴影 */
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -322,15 +310,6 @@ ul li {
   backdrop-filter: blur(10px);
   text-align: center;
 }
-.table {
-  table-layout: fixed;
-  border-collapse: collapse;
-}
-.line {
-  background-color: #ffffff94;
-  height: 1px;
-  width: 90%;
-}
 .notice div {
   color: #fff;
   font-size: 40px;
@@ -338,8 +317,17 @@ ul li {
   font-family: "幼圆";
   font-weight: 700;
 }
+.notice p {
+  background-color: #ffffff94;
+  height: 1px;
+  width: 90%;
+}
+.notice table {
+  table-layout: fixed;
+  border-collapse: collapse;
+}
 .notice thead th {
-  color: #69dff9;
+  color: #2cd0e9;
   font-size: 35px;
   letter-spacing: 2px;
   height: 40px;
