@@ -8,15 +8,15 @@ var app = new Vue({
       "现在没有作业！",
     ],
     card: [
-      // {
-      //   img: "",
-      //   uname: "",
-      //   uname_add: "",
-      //   content: "",
-      //   start: "",
-      //   ddl: "",
-      //   link: "",
-      // },
+      {
+        img: "https://img.picui.cn/free/2024/09/18/66ea724ea7ee1.png",
+        uname: "计算机组成原理",
+        uname_add: "",
+        content: "3.1（2）、3.2（3）、3.3（4）、3.4（3、6、8、9）、3.5（FF）、3.8、3.9（2）、3.10（1）3.1（2）、3.2（3）、3.3（4）、3.4（3、6、8、9）、3.5（FF）、3.8、3.9（2）、3.10（1）3.1（2）、3.2（3）、3.3（4）、3.4（3、6、8、9）、3.5（FF）、3.8、3.9（2）、3.10（1）3.1（2）、3.2（3）、3.3（4）、3.4（3、6、8、9）、3.5（FF）、3.8、3.9（2）、3.10（1）3.1（2）、3.2（3）、3.3（4）、3.4（3、6、8、9）、3.5（FF）、3.8、3.9（2）、3.10（1）",
+        start: "2024.9.17 00:00",
+        ddl: "2024.9.25 23:59",
+        link: "https://moodle.scnu.edu.cn/mod/assign/view.php?id=674167https://moodle.scnu.edu.cn/mod/assign/view.php?id=674167https://moodle.scnu.edu.cn/mod/assign/view.php?id=674167https://moodle.scnu.edu.cn/mod/assign/view.php?id=674167https://moodle.scnu.edu.cn/mod/assign/view.php?id=674167https://moodle.scnu.edu.cn/mod/assign/view.php?id=674167",
+      },
     ],
     subject: [
       {

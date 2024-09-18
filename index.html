@@ -36,7 +36,7 @@
             <div v-for="(card, index) in card" :key="index" class="card">
               <div class="content">
                 <h1>0{{ index+1 }}</h1>
-                <h3>{{ card.uname }}（{{card.uname_add}}）</h3>
+                <h3>{{ card.uname }}</h3>
                 <p>开始时间：{{ card.start }}</p>
                 <p>结束时间：{{ card.ddl }}</p>
                 <a @click="gotoPage(index)" id="detail" href="Homework/Homework.html">详情</a>
@@ -62,38 +62,17 @@
             <li>Go</li>
             <li>PHP</li>
           </ul>
+
         </div>
       </div>
-      <!-- 期末考通知栏 -->
-      <div class="notice">
-        <div>期末考试日程表(以计科一班班级课表为准)</div>
-        <p class="line">&nbsp;</p>
-        <table class="table">
-          <thead>
-            <tr>
-              <th>考试科目</th>
-              <th>教室</th>
-              <th>考试时间</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr v-for="(subject, index) in subject" :key="index" class="subject">
-              <td>{{ subject.proj }}</td>
-              <td>{{ subject.class }}</td>
-              <td>{{ subject.tm }}</td>
-            </tr>
-          </tbody>
-        </table>
+      <!-- footer -->
+      <div class="divend">
+        <footer class="footer">此网站由LZStarV设计</footer>
       </div>
     </div>
-    <!-- footer -->
-    <div class="divend">
-      <footer class="footer">此网站由LZStarV设计</footer>
-    </div>
-  </div>
-  <!--js部分-->
-  <script src="https://cdn.jsdelivr.net/npm/vue@2.7.16/dist/vue.js"></script>
-  <script type="text/javascript" src="./index/index.js"></script>
+    <!--js部分-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.16/dist/vue.js"></script>
+    <script type="text/javascript" src="./index/index.js"></script>
 </body>
 
 </html>
