@@ -3,7 +3,7 @@ new Vue({
   data: {
     idx: 0, // 默认idx，实际应从localStorage获取
     selectedHomework: null,
-    logoURL: "https://img2.imgtp.com/2024/05/27/jZSwVNvX.jpg",
+    logoURL: "https://pic.imge.cc/2024/07/24/66a0c6ea4edd5.png",
     homework: [],
   },
   mounted() {
