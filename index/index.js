@@ -4,8 +4,6 @@ var app = new Vue({
     logoURL: "https://pic.imge.cc/2024/07/24/66a0c6ea4edd5.png",
     introduce: [
       "卡片以ddl为索引排序，越在前面越快到ddl！记得及时做作业哦！",
-      "下面是计科一班期末考试日程表！",
-      "现在没有作业！",
     ],
     card: [
       {
