@@ -17,6 +17,15 @@ var app = new Vue({
         ddl: "2024.9.25 23:59",
         link: "https://moodle.scnu.edu.cn/mod/assign/view.php?id=674167https://moodle.scnu.edu.cn/mod/assign/view.php?id=674167https://moodle.scnu.edu.cn/mod/assign/view.php?id=674167https://moodle.scnu.edu.cn/mod/assign/view.php?id=674167https://moodle.scnu.edu.cn/mod/assign/view.php?id=674167https://moodle.scnu.edu.cn/mod/assign/view.php?id=674167",
       },
+      {
+        img: "https://www.helloimg.com/i/2024/09/25/66f3c2c41ccd7.png",
+        uname: "程序设计文献阅读报告",
+        uname_add: "",
+        content: "一、选择该题目的理由 ；二、查阅文献的目的 ；三、收获与启发 ；四、查阅文献后的心得体会（如何阅读文献） ；五、列出查阅的相关文献",
+        start: "--",
+        ddl: "2024.9.30 23:59",
+        link: "https://send2me.cn/JS8sUfXu/SiCpFGZxLXsQzg",
+      },
     ],
     subject: [
       {
