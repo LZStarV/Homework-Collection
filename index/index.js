@@ -8,13 +8,22 @@ var app = new Vue({
     ],
     card: [
       {
-        img: "https://www.helloimg.com/i/2024/10/09/6706822eb66f0.png",
+        img: "https://www.helloimg.com/i/2024/10/18/6712199836621.png",
         uname: "计算机组成原理",
         uname_add: "",
-        content: "4.5（Y）、4.10（1）、4.25",
+        content: "5.5、5.13、5.14",
         start: "2024.9.17 00:00",
-        ddl: "2024.10.16 23:59",
-        link: "https://moodle.scnu.edu.cn/mod/assign/view.php?id=683464",
+        ddl: "2024.10.23 23:59",
+        link: "https://moodle.scnu.edu.cn/mod/assign/view.php?id=684795",
+      },
+      {
+        img: "https://www.helloimg.com/i/2024/10/18/67121b1502eac.png",
+        uname: "python实验作业",
+        uname_add: "",
+        content: "PPT上四个题",
+        start: "2024.10.14 14:30",
+        ddl: "2024.10.21 23:59",
+        link: "https://send2me.cn/0ysZKmQY/SCWWw27jjy0bmQ",
       },
       {
         img: "https://www.helloimg.com/i/2024/10/09/670683deb249a.png",
