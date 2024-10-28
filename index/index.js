@@ -8,22 +8,22 @@ var app = new Vue({
     ],
     card: [
       {
-        img: "https://www.helloimg.com/i/2024/10/18/6712199836621.png",
-        uname: "计算机组成原理",
+        img: "https://www.helloimg.com/i/2024/10/28/671ee0ac8c8a1.png",
+        uname: "程序设计作业",
         uname_add: "",
-        content: "5.5、5.13、5.14",
-        start: "2024.9.17 00:00",
-        ddl: "2024.10.23 23:59",
-        link: "https://moodle.scnu.edu.cn/mod/assign/view.php?id=684795",
+        content: "提交整个系统，包括源代码、编译后的可执行程序、实验报告",
+        start: "--",
+        ddl: "2024.10.30 00:00",
+        link: "https://send2me.cn/0_i29Sdz/QzGpL6uHsdOHbQ",
       },
       {
-        img: "https://www.helloimg.com/i/2024/10/18/67121b1502eac.png",
-        uname: "python实验作业",
+        img: "https://www.helloimg.com/i/2024/10/28/671ee23fb0ad2.png",
+        uname: "计组实验报告提交",
         uname_add: "",
-        content: "PPT上四个题",
-        start: "2024.10.14 14:30",
-        ddl: "2024.10.21 23:59",
-        link: "https://send2me.cn/0ysZKmQY/SCWWw27jjy0bmQ",
+        content: "提交拍照后PDF内容",
+        start: "--",
+        ddl: "2024.10.28 23:00",
+        link: "https://send2me.cn/W5hZoTiF/Qb6TIMo6pCONzQ",
       },
       {
         img: "https://www.helloimg.com/i/2024/10/09/670683deb249a.png",
@@ -34,6 +34,7 @@ var app = new Vue({
         ddl: "2024.12.30 23:59",
         link: "https://pintia.cn/problem-sets/dashboard",
       },
+
     ]
   },
   mounted() {
